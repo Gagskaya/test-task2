@@ -20,7 +20,8 @@ export const Sort = ({ sortData, orderData, translate }) => {
       <div className="app__sort-tabs">
         <span name='id' className={classNames('tab', activeSort === 'id' && 'active')} onClick={() => sortItems('id')} >ID</span>
         <span name="name" className={classNames('tab', activeSort === 'name' && 'active')} onClick={() => sortItems('name')} >{translate ? 'Имя' : 'Name'}</span>
-        <span name="age" className={classNames('tab', activeSort === 'age' && 'active')} onClick={() => sortItems('age')}>{translate ? 'Возраст' : 'Age'}</span>
+        <span name="age" className={classNames('tab', activeSort === 'amount' && 'active')} onClick={() => sortItems('amount')}>{translate ? 'Количество' : 'Amount'}</span>
+        <span name="age" className={classNames('tab', activeSort === 'distance' && 'active')} onClick={() => sortItems('distance')}>{translate ? 'Расстояние' : 'Distance'}</span>
       </div>
       <div className="app__sort-tabs">
         <span name="increase" className={classNames('tab', activeOrder === 'increase' && 'active')} onClick={() => orderItems('increase')}>{translate ? 'По возрастанию' : 'Ascending'}</span>

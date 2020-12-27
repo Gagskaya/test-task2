@@ -9,9 +9,8 @@ import { setData } from './actions/setData';
 import { sortData } from './actions/sortData';
 import { orderData } from './actions/orderData';
 import { filterName } from './actions/filterName';
-import { View } from './components/View';
 import { Sort } from './components/Sort'
-import { Content } from './components/Content';
+import { TableView } from './components/TableView';
 
 
 
@@ -28,7 +27,9 @@ const sortBy = (items, sortValue, orderValue) => {
       return orderBy(items, sortValue, 'asc');
     case 'name':
       return orderBy(items, sortValue, 'asc');
-    case 'age':
+    case 'amount':
+      return orderBy(items, sortValue, 'asc');
+    case 'distance':
       return orderBy(items, sortValue, 'asc');
     default:
       return items;
@@ -54,11 +55,11 @@ const App = (props) => {
       <div className="app">
         <div className="app-tabs-wrap">
           <Sort sortData={sortData} orderData={orderData} translate={translate} />
-          <View translate={translate} />
+          {/* <View translate={translate} /> */}
         </div>
         <div className="app-content-wrap">
           {
-            items && items.map(item => <Content  {...item} key={item.id} translate={translate} />)
+            items && items.map(item => <TableView  {...item} key={item.id} translate={translate} />)
           }
         </div>
         <input value={filterNameValue} onChange={e => filterName(e.target.value)} type="text" className="app__search-input" placeholder="Введите запрос" />

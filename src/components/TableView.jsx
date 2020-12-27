@@ -4,13 +4,37 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import Icon from '@material-ui/core/Icon';
 import Table from '@material-ui/core/Table';
-import classNames from 'classnames'
-import { useState } from 'react';
 import { TableHead } from '@material-ui/core';
-export const TableView = ({ date, name, amount, distance, classes, translate }) => {
-    const [activeItem, setActiveItem] = useState(false);
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    root: {
+      minWidth: 275,
+      maxWidth: '50%',
+      marginTop: '15px',
+      height: '190px',
+      boxShadow: '1px 1px 10px 1px rgba(0,0,0.2)',
+      display : 'inline-block',
+      
+    },
+    title: {
+      fontSize: 14,
+    },
+    phone: {
+      marginBottom: 12,
+    },
+    th: {
+      minWidth: '150px'
+    },
+    table: {
+      marginTop: '10px'
+    }
+  });
+export const TableView = ({ date, name, amount, distance,  translate }) => {
+    const classes = useStyles();
+
+
     return (
         <TableContainer component={Paper} className="animate__animated animate__bounceInUp">
             <Table className={classes.table} size="small" aria-label="simple table responsive table">
@@ -31,7 +55,6 @@ export const TableView = ({ date, name, amount, distance, classes, translate }) 
                         <TableCell>{date} </TableCell>
                         <TableCell>{amount}</TableCell>
                         <TableCell align="right">{distance} км</TableCell>
-                        {/* <TableCell align="right"><Icon onClick={() => setActiveItem(!activeItem)} className={classNames('star-icon', activeItem ? 'active' : '')}>star</Icon></TableCell> */}
                     </TableRow>
                 </TableBody>
 
