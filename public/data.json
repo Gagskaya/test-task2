@@ -1,0 +1,632 @@
+[
+	{
+	  "id": 0,
+	  "name": "QUONATA",
+	  "distance": 20,
+	  "amount": 2,
+	  "date": "2017-01-30"
+	},
+	{
+	  "id": 1,
+	  "name": "EVENTIX",
+	  "distance": 34,
+	  "amount": 2,
+	  "date": "2014-02-12"
+	},
+	{
+	  "id": 2,
+	  "name": "COMTOURS",
+	  "distance": 29,
+	  "amount": 2,
+	  "date": "2020-08-31"
+	},
+	{
+	  "id": 3,
+	  "name": "QUIZMO",
+	  "distance": 34,
+	  "amount": 3,
+	  "date": "2020-09-17"
+	},
+	{
+	  "id": 4,
+	  "name": "BUZZWORKS",
+	  "distance": 38,
+	  "amount": 3,
+	  "date": "2019-03-28"
+	},
+	{
+	  "id": 5,
+	  "name": "INRT",
+	  "distance": 30,
+	  "amount": 1,
+	  "date": "2020-09-06"
+	},
+	{
+	  "id": 6,
+	  "name": "CENTURIA",
+	  "distance": 32,
+	  "amount": 2,
+	  "date": "2016-11-28"
+	},
+	{
+	  "id": 7,
+	  "name": "FUTURIZE",
+	  "distance": 22,
+	  "amount": 2,
+	  "date": "2017-06-18"
+	},
+	{
+	  "id": 8,
+	  "name": "ISBOL",
+	  "distance": 30,
+	  "amount": 1,
+	  "date": "2014-03-23"
+	},
+	{
+	  "id": 9,
+	  "name": "ZENTIX",
+	  "distance": 23,
+	  "amount": 1,
+	  "date": "2014-09-21"
+	},
+	{
+	  "id": 10,
+	  "name": "MOBILDATA",
+	  "distance": 37,
+	  "amount": 2,
+	  "date": "2020-01-25"
+	},
+	{
+	  "id": 11,
+	  "name": "ZOINAGE",
+	  "distance": 35,
+	  "amount": 3,
+	  "date": "2015-01-31"
+	},
+	{
+	  "id": 12,
+	  "name": "GEEKNET",
+	  "distance": 38,
+	  "amount": 2,
+	  "date": "2014-08-01"
+	},
+	{
+	  "id": 13,
+	  "name": "ELITA",
+	  "distance": 38,
+	  "amount": 3,
+	  "date": "2018-09-18"
+	},
+	{
+	  "id": 14,
+	  "name": "IDEGO",
+	  "distance": 32,
+	  "amount": 3,
+	  "date": "2014-01-05"
+	},
+	{
+	  "id": 15,
+	  "name": "EMTRAK",
+	  "distance": 36,
+	  "amount": 1,
+	  "date": "2017-09-19"
+	},
+	{
+	  "id": 16,
+	  "name": "TINGLES",
+	  "distance": 32,
+	  "amount": 1,
+	  "date": "2015-03-31"
+	},
+	{
+	  "id": 17,
+	  "name": "ZEAM",
+	  "distance": 28,
+	  "amount": 1,
+	  "date": "2015-01-24"
+	},
+	{
+	  "id": 18,
+	  "name": "VIAGRAND",
+	  "distance": 37,
+	  "amount": 2,
+	  "date": "2020-08-16"
+	},
+	{
+	  "id": 19,
+	  "name": "SENTIA",
+	  "distance": 24,
+	  "amount": 3,
+	  "date": "2019-10-02"
+	},
+	{
+	  "id": 20,
+	  "name": "MATRIXITY",
+	  "distance": 20,
+	  "amount": 2,
+	  "date": "2016-08-18"
+	},
+	{
+	  "id": 21,
+	  "name": "ZORK",
+	  "distance": 32,
+	  "amount": 1,
+	  "date": "2020-12-21"
+	},
+	{
+	  "id": 22,
+	  "name": "VERTIDE",
+	  "distance": 34,
+	  "amount": 1,
+	  "date": "2017-07-07"
+	},
+	{
+	  "id": 23,
+	  "name": "CENTREGY",
+	  "distance": 29,
+	  "amount": 3,
+	  "date": "2019-10-30"
+	},
+	{
+	  "id": 24,
+	  "name": "QUALITERN",
+	  "distance": 28,
+	  "amount": 2,
+	  "date": "2016-04-05"
+	},
+	{
+	  "id": 25,
+	  "name": "ZILCH",
+	  "distance": 25,
+	  "amount": 2,
+	  "date": "2018-03-05"
+	},
+	{
+	  "id": 26,
+	  "name": "INSURITY",
+	  "distance": 29,
+	  "amount": 2,
+	  "date": "2019-10-14"
+	},
+	{
+	  "id": 27,
+	  "name": "POLARIUM",
+	  "distance": 32,
+	  "amount": 3,
+	  "date": "2019-04-08"
+	},
+	{
+	  "id": 28,
+	  "name": "ZEROLOGY",
+	  "distance": 29,
+	  "amount": 2,
+	  "date": "2014-04-01"
+	},
+	{
+	  "id": 29,
+	  "name": "XINWARE",
+	  "distance": 36,
+	  "amount": 1,
+	  "date": "2019-05-05"
+	},
+	{
+	  "id": 30,
+	  "name": "OMNIGOG",
+	  "distance": 25,
+	  "amount": 2,
+	  "date": "2014-02-15"
+	},
+	{
+	  "id": 31,
+	  "name": "VANTAGE",
+	  "distance": 28,
+	  "amount": 2,
+	  "date": "2020-11-26"
+	},
+	{
+	  "id": 32,
+	  "name": "PRINTSPAN",
+	  "distance": 27,
+	  "amount": 2,
+	  "date": "2018-06-21"
+	},
+	{
+	  "id": 33,
+	  "name": "OATFARM",
+	  "distance": 21,
+	  "amount": 3,
+	  "date": "2016-03-13"
+	},
+	{
+	  "id": 34,
+	  "name": "XOGGLE",
+	  "distance": 25,
+	  "amount": 2,
+	  "date": "2015-05-17"
+	},
+	{
+	  "id": 35,
+	  "name": "CHORIZON",
+	  "distance": 32,
+	  "amount": 1,
+	  "date": "2019-03-17"
+	},
+	{
+	  "id": 36,
+	  "name": "FURNAFIX",
+	  "distance": 35,
+	  "amount": 1,
+	  "date": "2019-06-09"
+	},
+	{
+	  "id": 37,
+	  "name": "NUTRALAB",
+	  "distance": 38,
+	  "amount": 1,
+	  "date": "2020-09-27"
+	},
+	{
+	  "id": 38,
+	  "name": "BITREX",
+	  "distance": 35,
+	  "amount": 3,
+	  "date": "2016-10-25"
+	},
+	{
+	  "id": 39,
+	  "name": "NEXGENE",
+	  "distance": 27,
+	  "amount": 1,
+	  "date": "2014-12-13"
+	},
+	{
+	  "id": 40,
+	  "name": "OVOLO",
+	  "distance": 28,
+	  "amount": 2,
+	  "date": "2019-09-16"
+	},
+	{
+	  "id": 41,
+	  "name": "MAINELAND",
+	  "distance": 39,
+	  "amount": 3,
+	  "date": "2018-05-27"
+	},
+	{
+	  "id": 42,
+	  "name": "VIOCULAR",
+	  "distance": 37,
+	  "amount": 2,
+	  "date": "2016-09-27"
+	},
+	{
+	  "id": 43,
+	  "name": "SAVVY",
+	  "distance": 35,
+	  "amount": 1,
+	  "date": "2016-12-15"
+	},
+	{
+	  "id": 44,
+	  "name": "SNIPS",
+	  "distance": 25,
+	  "amount": 3,
+	  "date": "2017-06-12"
+	},
+	{
+	  "id": 45,
+	  "name": "AUTOGRATE",
+	  "distance": 31,
+	  "amount": 1,
+	  "date": "2020-12-17"
+	},
+	{
+	  "id": 46,
+	  "name": "EARBANG",
+	  "distance": 24,
+	  "amount": 3,
+	  "date": "2015-01-08"
+	},
+	{
+	  "id": 47,
+	  "name": "FITCORE",
+	  "distance": 31,
+	  "amount": 2,
+	  "date": "2017-02-23"
+	},
+	{
+	  "id": 48,
+	  "name": "PERMADYNE",
+	  "distance": 34,
+	  "amount": 2,
+	  "date": "2016-11-16"
+	},
+	{
+	  "id": 49,
+	  "name": "TECHADE",
+	  "distance": 32,
+	  "amount": 1,
+	  "date": "2020-02-07"
+	},
+	{
+	  "id": 50,
+	  "name": "BLEEKO",
+	  "distance": 29,
+	  "amount": 1,
+	  "date": "2020-11-06"
+	},
+	{
+	  "id": 51,
+	  "name": "STREZZO",
+	  "distance": 29,
+	  "amount": 3,
+	  "date": "2014-02-07"
+	},
+	{
+	  "id": 52,
+	  "name": "CORPULSE",
+	  "distance": 30,
+	  "amount": 1,
+	  "date": "2020-10-08"
+	},
+	{
+	  "id": 53,
+	  "name": "ZILLANET",
+	  "distance": 31,
+	  "amount": 2,
+	  "date": "2015-02-22"
+	},
+	{
+	  "id": 54,
+	  "name": "GEEKKO",
+	  "distance": 40,
+	  "amount": 3,
+	  "date": "2017-06-14"
+	},
+	{
+	  "id": 55,
+	  "name": "SLUMBERIA",
+	  "distance": 24,
+	  "amount": 3,
+	  "date": "2015-02-17"
+	},
+	{
+	  "id": 56,
+	  "name": "OHMNET",
+	  "distance": 25,
+	  "amount": 3,
+	  "date": "2018-05-04"
+	},
+	{
+	  "id": 57,
+	  "name": "BLANET",
+	  "distance": 33,
+	  "amount": 1,
+	  "date": "2015-03-16"
+	},
+	{
+	  "id": 58,
+	  "name": "ELECTONIC",
+	  "distance": 24,
+	  "amount": 2,
+	  "date": "2015-07-21"
+	},
+	{
+	  "id": 59,
+	  "name": "FLUM",
+	  "distance": 33,
+	  "amount": 2,
+	  "date": "2017-10-05"
+	},
+	{
+	  "id": 60,
+	  "name": "ISOLOGIA",
+	  "distance": 35,
+	  "amount": 1,
+	  "date": "2019-04-29"
+	},
+	{
+	  "id": 61,
+	  "name": "MAGNINA",
+	  "distance": 37,
+	  "amount": 1,
+	  "date": "2014-02-06"
+	},
+	{
+	  "id": 62,
+	  "name": "MANTRO",
+	  "distance": 27,
+	  "amount": 2,
+	  "date": "2017-11-20"
+	},
+	{
+	  "id": 63,
+	  "name": "PORTALIS",
+	  "distance": 29,
+	  "amount": 3,
+	  "date": "2017-02-24"
+	},
+	{
+	  "id": 64,
+	  "name": "RONELON",
+	  "distance": 30,
+	  "amount": 1,
+	  "date": "2016-08-13"
+	},
+	{
+	  "id": 65,
+	  "name": "APEXTRI",
+	  "distance": 39,
+	  "amount": 1,
+	  "date": "2017-07-21"
+	},
+	{
+	  "id": 66,
+	  "name": "SYBIXTEX",
+	  "distance": 23,
+	  "amount": 3,
+	  "date": "2018-05-16"
+	},
+	{
+	  "id": 67,
+	  "name": "KEGULAR",
+	  "distance": 38,
+	  "amount": 3,
+	  "date": "2014-08-09"
+	},
+	{
+	  "id": 68,
+	  "name": "BICOL",
+	  "distance": 27,
+	  "amount": 2,
+	  "date": "2020-02-08"
+	},
+	{
+	  "id": 69,
+	  "name": "IMAGINART",
+	  "distance": 23,
+	  "amount": 3,
+	  "date": "2014-05-24"
+	},
+	{
+	  "id": 70,
+	  "name": "GEOFORM",
+	  "distance": 23,
+	  "amount": 3,
+	  "date": "2014-11-29"
+	},
+	{
+	  "id": 71,
+	  "name": "OTHERWAY",
+	  "distance": 36,
+	  "amount": 2,
+	  "date": "2018-06-03"
+	},
+	{
+	  "id": 72,
+	  "name": "OVATION",
+	  "distance": 35,
+	  "amount": 2,
+	  "date": "2019-10-28"
+	},
+	{
+	  "id": 73,
+	  "name": "EXOBLUE",
+	  "distance": 20,
+	  "amount": 1,
+	  "date": "2015-01-03"
+	},
+	{
+	  "id": 74,
+	  "name": "SEALOUD",
+	  "distance": 31,
+	  "amount": 2,
+	  "date": "2014-12-16"
+	},
+	{
+	  "id": 75,
+	  "name": "ENERVATE",
+	  "distance": 26,
+	  "amount": 1,
+	  "date": "2014-08-20"
+	},
+	{
+	  "id": 76,
+	  "name": "SULFAX",
+	  "distance": 22,
+	  "amount": 3,
+	  "date": "2020-11-27"
+	},
+	{
+	  "id": 77,
+	  "name": "SPEEDBOLT",
+	  "distance": 28,
+	  "amount": 1,
+	  "date": "2017-12-07"
+	},
+	{
+	  "id": 78,
+	  "name": "PAPRIKUT",
+	  "distance": 37,
+	  "amount": 1,
+	  "date": "2020-10-16"
+	},
+	{
+	  "id": 79,
+	  "name": "RODEOCEAN",
+	  "distance": 31,
+	  "amount": 2,
+	  "date": "2020-02-13"
+	},
+	{
+	  "id": 80,
+	  "name": "ENTROPIX",
+	  "distance": 38,
+	  "amount": 1,
+	  "date": "2014-11-08"
+	},
+	{
+	  "id": 81,
+	  "name": "COSMOSIS",
+	  "distance": 40,
+	  "amount": 2,
+	  "date": "2015-06-14"
+	},
+	{
+	  "id": 82,
+	  "name": "SOLGAN",
+	  "distance": 27,
+	  "amount": 2,
+	  "date": "2016-07-15"
+	},
+	{
+	  "id": 83,
+	  "name": "XURBAN",
+	  "distance": 24,
+	  "amount": 3,
+	  "date": "2018-05-11"
+	},
+	{
+	  "id": 84,
+	  "name": "INJOY",
+	  "distance": 27,
+	  "amount": 3,
+	  "date": "2018-11-17"
+	},
+	{
+	  "id": 85,
+	  "name": "KENGEN",
+	  "distance": 29,
+	  "amount": 2,
+	  "date": "2014-12-06"
+	},
+	{
+	  "id": 86,
+	  "name": "ISODRIVE",
+	  "distance": 28,
+	  "amount": 3,
+	  "date": "2020-02-02"
+	},
+	{
+	  "id": 87,
+	  "name": "EQUITOX",
+	  "distance": 20,
+	  "amount": 3,
+	  "date": "2018-02-25"
+	},
+	{
+	  "id": 88,
+	  "name": "MYOPIUM",
+	  "distance": 33,
+	  "amount": 2,
+	  "date": "2020-12-03"
+	},
+	{
+	  "id": 89,
+	  "name": "ECRATER",
+	  "distance": 24,
+	  "amount": 2,
+	  "date": "2018-04-19"
+	}
+  ]

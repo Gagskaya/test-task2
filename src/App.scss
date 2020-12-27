@@ -1,0 +1,125 @@
+.app {
+    position: relative;
+    &-tabs-wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &-content-wrap {
+        width: 100%;
+    }
+    .tranlate-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__search {
+        &-input {
+            padding: 5px;
+            position: absolute;
+            right: 35px;
+            top: 0;
+        }
+    }
+    .tab {
+        border: 1px solid black;
+        cursor: pointer;
+        width: 100%;
+        padding: 5px 0;
+        &:hover {
+            background: #ccc;
+        }  
+        &.active {
+            background: #ccc;
+        }
+   }
+   
+    &__sort {
+        margin-top: 20px;
+        width: 100%;
+       &-tabs {
+           max-width: 300px;
+           display: flex;
+           justify-content: space-between;
+           text-align: center;
+           margin-bottom: 10px;
+          
+       }
+    }
+    &__view {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 150px;
+        flex-basis: 40%;
+        &-tabs {
+            display: flex;
+        }
+        &-tab {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &.active {
+                background: #ccc;
+            }
+        }
+    }
+    .star-icon {
+        cursor: pointer;
+        color: #ccc;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+            color: rgba($color: #000000, $alpha: 0.4);
+        }
+        &.active {
+            color: #000;
+        }
+    }
+    .video-player {
+        min-height: 190px !important;
+    }
+}
+
+// MEDIA
+
+@media screen and (max-width: 575px) {
+    .app {
+        &-tabs-wrap {
+            flex-wrap: wrap;
+        }
+        &__sort {
+            text-align: center;
+            flex-basis: 100%;
+            &-tabs {
+                margin: 5px auto;
+            }
+        }
+        &__view {
+            text-align: center;
+            flex-basis: 100%;
+            margin: 0 auto;
+        }
+    }
+   
+}
+@media screen and (max-width: 614px) { 
+    .app-content-wrap {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 513px) { 
+    table {
+       tbody {
+           tr {
+               display: flex !important;
+               justify-content: center  !important;
+               flex-wrap: wrap;
+               td {
+                 width: 100%;
+                 text-align: center !important;
+               }
+           }
+       }
+    }
+}
