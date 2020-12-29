@@ -1,5 +1,6 @@
 const initialState = {
-    filterNameValue: ''
+    filterNameValue: '',
+    filterDistanceValue : ''
 }
 
 export const filter = (state = initialState, action) => {
@@ -8,6 +9,11 @@ export const filter = (state = initialState, action) => {
             return {
                 ...state,
                 filterNameValue: action.payload
+            }
+        case "FILTER_DISTANCE":
+            return {
+                ...state,
+                filterDistanceValue: action.payload
             }
         default:
             return state;

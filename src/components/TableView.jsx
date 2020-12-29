@@ -31,31 +31,29 @@ const useStyles = makeStyles({
       marginTop: '10px'
     }
   });
-export const TableView = ({ date, name, amount, distance,  translate }) => {
+export const TableView = ({ items }) => {
     const classes = useStyles();
-
-
+    
     return (
         <TableContainer component={Paper} className="animate__animated animate__bounceInUp">
             <Table className={classes.table} size="small" aria-label="simple table responsive table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>{translate ? 'Название' : 'Name'}</TableCell>
-                        <TableCell align="right">{translate ? 'Дата' : 'Date'}</TableCell>
-                        <TableCell align="right">{translate ? 'Количество' : 'Amount'}</TableCell>
-                        <TableCell align="right">{translate ? 'Расстояние' : 'Distance'}</TableCell>
-                    
+                        <TableCell>Название</TableCell>
+                        <TableCell align="right">Дата</TableCell>
+                        <TableCell align="right">Количество</TableCell>
+                        <TableCell align="right">Расстояние</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    <TableRow>
+                  {items && items.map(item =>    <TableRow key={item.id}>
                         <TableCell scope="row" className={classes.th}>
-                            {name}
+                            {item.name}
                         </TableCell>
-                        <TableCell>{date} </TableCell>
-                        <TableCell>{amount}</TableCell>
-                        <TableCell align="right">{distance} км</TableCell>
-                    </TableRow>
+                        <TableCell>{item.date} </TableCell>
+                        <TableCell style={{textAlign: 'center'}}>{item.amount}</TableCell>
+                        <TableCell align="right">{item.distance} км</TableCell>
+                    </TableRow>)}
                 </TableBody>
 
             </Table>

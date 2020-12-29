@@ -9,8 +9,12 @@ import { setData } from './actions/setData';
 import { sortData } from './actions/sortData';
 import { orderData } from './actions/orderData';
 import { filterName } from './actions/filterName';
-import { Sort } from './components/Sort'
+import { filterDistance } from './actions/filterDistance';
+
+import { Sort } from './components/Sort';
+import { Pagination } from './components/Pagination';
 import { TableView } from './components/TableView';
+import { Filter } from './components/Filter';
 
 
 
@@ -40,8 +44,15 @@ const searchBy = (items, sortValue, filterNameValue, orderValue) => {
   return sortBy(filterBy(items, filterNameValue), sortValue, orderValue)
 }
 const App = (props) => {
-  const { items, setData, sortData, orderData, filterName, filterNameValue } = props;
-  const [translate, setTranslate] = useState(true);
+  const { items, setData, sortData, orderData, filterName,filterDistance } = props;
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(10);
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = items && items.slice(indexOfFirstItem, indexOfLastItem);
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get('/data.json');
@@ -49,28 +60,29 @@ const App = (props) => {
     }
     fetchData();
   }, [setData]);
-
+  const [visibleFilterPopup, setVisibleFilterPopup] = useState(false);
   return (
     <Container maxWidth="sm">
       <div className="app">
         <div className="app-tabs-wrap">
-          <Sort sortData={sortData} orderData={orderData} translate={translate} />
-          {/* <View translate={translate} /> */}
+          <Sort sortData={sortData} orderData={orderData} />
+          <button className='app__filter-btn' onClick={() => setVisibleFilterPopup(!visibleFilterPopup)}>Фильтровать</button>
         </div>
+        <Filter visibleFilterPopup={visibleFilterPopup} filterName={filterName} filterDistance={filterDistance}/>
         <div className="app-content-wrap">
-          {
-            items && items.map(item => <TableView  {...item} key={item.id} translate={translate} />)
-          }
+          <TableView items={currentItems} />
         </div>
-        <input value={filterNameValue} onChange={e => filterName(e.target.value)} type="text" className="app__search-input" placeholder="Введите запрос" />
-        <button className="tranlate-btn" onClick={() => setTranslate(!translate)}>{translate ? 'RU' : 'EN'}</button>
+        <Pagination
+          itemsPerPage={itemsPerPage}
+          totalItems={items && items.length}
+          paginate={paginate}
+        />
       </div>
     </Container>
   );
 }
 
 const mapStateToProps = ({ data, sort, order, filter }) => ({
-  items: data.items && searchBy(data.items, sort.sortValue, filter.filterNameValue, order.orderValue),
-  filterNameValue: filter.filterNameValue
+  items: data.items && searchBy(data.items, sort.sortValue, filter.filterNameValue, order.orderValue)
 });
-export default connect(mapStateToProps, { setData, sortData, orderData, filterName })(App);
+export default connect(mapStateToProps, { setData, sortData, orderData, filterName ,filterDistance})(App);

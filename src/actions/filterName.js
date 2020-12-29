@@ -1,4 +1,4 @@
-export const filterName = filterValue => ({
+export const filterName = filterNameValue => ({
     type : 'FILTER_NAME',
-    payload : filterValue
+    payload : filterNameValue
 })
